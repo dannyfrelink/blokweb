@@ -1,12 +1,12 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** -Danny Frelink-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. -bron 1 Lay's website: https://lays.nl/assortiment -
 2. -bron 2-
 3. -...-
 
@@ -64,10 +64,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/lays-pagina1.png) 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/lays-pagina2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/lays-pagina1.png) 
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/lays-pagina2.png)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown-schets1.jpeg) 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/breakdown-schets2.jpeg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/readme/breakdown-schets1.jpeg) 
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/breakdown-schets2.jpeg)
