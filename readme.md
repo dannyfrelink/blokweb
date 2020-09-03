@@ -60,7 +60,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** -Responsive, want ik heb hier nog nooit mee gewerkt en wil dit dus leren. Uiteraard wil ik als dit makkelijk lukt, ook kijken naar de extra aandacht voor de surface laag.-
 
-**Je opdracht:** -Ik ga de Lays website namaken, waarbij ik de assortiment pagina en de detailpagina van dit assortiment wil maken (zie beide screenshots). Link naar website is: https://lays.nl/assortiment-
+**Je opdracht:** -Ik ga de Lays website namaken, waarbij ik de assortiment pagina en de detailpagina van dit assortiment wil maken (zie beide screenshots). Link naar website is: https://lays.nl/assortiment -
 
 **Screenshot(s):**
 
