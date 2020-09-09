@@ -52,7 +52,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -na afloop snel uitkomsten vastleggen-
 
+## Intake (week 2)
 
+Ik ben in deze week begonnen met het maken van het skelet van mijn website. Hiervoor heb ik eerst de hele assortiment pagina nagemaakt, door alle codes in de juiste volgorde onder elkaar te zetten. Vervolgens heb ik de CSS voor de typografie toegevoegd aan mijn website.
+
+Nadat het college van deze week had plaatsgevonden, ben ik meteen mijn detailpagina gaan maken, door hier de code van mijn assortiment pagina toe te voegen en hier een extra section aan toe te voegen. Verder ben ik ook aan de slag gegaan met het positioneren van mijn content, waardoor mijn content iets compacter werd.
 
 ## Intake (week 1)
 
@@ -60,7 +64,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** -Responsive, want ik heb hier nog nooit mee gewerkt en wil dit dus leren. Uiteraard wil ik als dit makkelijk lukt, ook kijken naar de extra aandacht voor de surface laag.-
 
-**Je opdracht:** -Ik ga de Lays website namaken, waarbij ik de assortiment pagina en de detailpagina van dit assortiment wil maken (zie beide screenshots). Link naar website is: https://lays.nl/assortiment -
+**Je opdracht:** -Ik ga de Lays website namaken, waarbij ik de assortiment pagina en de detailpagina van dit assortiment wil maken (zie beide screenshots). Ik heb deze website gekozen omdat er gebruik wordt gemaakt van een soort schaakbord layout op desktop die op mobile opeens op elkaar aansluit. Ik wil dus leren hoe is dit responsive kan laten worden en ik denk dat dit een mooie uitdaging is. Link naar website is: https://lays.nl/assortiment -
 
 **Screenshot(s):**
 
@@ -71,3 +75,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/readme/breakdown-schets1.jpeg) 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/breakdown-schets2.jpeg)
+
+
+- layout website gemaakt (alle HTML bestanden toegevoegd)
+- typografie vormgeving toegevoegd
