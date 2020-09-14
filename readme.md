@@ -38,6 +38,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
+Ik ben deze week bezig geweest met het compleet afmaken van mijn mobiele versie van de website. Alles is dus nu met flexbox gemaakt en ik heb geprobeerd om meteen ook te kijken naar of het responsive te maken was.
+
+Ik heb nog steeds moeite met het hamburgermenu en besloot daarom om hulp te vragen aan de docenten en studentassistenten. Hierdoor is het ook lastig om de navigatie van mijn namaak website gelijk te krijgen aan die van het origineel.
+
 -dit ging goed & dit was lastig-
 
 **Screenshot(s):**
@@ -77,7 +81,3 @@ Al voordat het tweede college van deze week kwam, ben ik aan de gang gegaan met 
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/readme/breakdown-schets1.jpeg) 
 ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/breakdown-schets2.jpeg)
-
-
-- layout website gemaakt (alle HTML bestanden toegevoegd)
-- typografie vormgeving toegevoegd
