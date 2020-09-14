@@ -56,7 +56,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 Ik ben in deze week begonnen met het maken van het skelet van mijn website. Hiervoor heb ik eerst de hele assortiment pagina nagemaakt, door alle codes in de juiste volgorde onder elkaar te zetten. Vervolgens heb ik de CSS voor de typografie toegevoegd aan mijn website.
 
-Nadat het college van deze week had plaatsgevonden, ben ik meteen mijn detailpagina gaan maken, door hier de code van mijn assortiment pagina toe te voegen en hier een extra section aan toe te voegen. Verder ben ik ook aan de slag gegaan met het positioneren van mijn content, waardoor mijn content iets compacter werd.
+Nadat het college van deze week had plaatsgevonden, ben ik meteen mijn detailpagina gaan maken, door hier de code van mijn assortiment pagina toe te voegen en hier een extra section aan toe te voegen. Verder ben ik ook aan de slag gegaan met het positioneren van mijn content, waardoor ik delen van mijn content op bepaalde plekken vast kon zetten.
+
+Al voordat het tweede college van deze week kwam, ben ik aan de gang gegaan met flexbox. Ik ben de navigatie van mijn website naast elkaar gaan zetten en heb ervoor gezorgd dat alle afmetingen klopte. Ik heb nog wel een probleem, aangezien ik een hamburger menu moet gaan gebruiken, maar nog niet weet hoe dit werkt, dus loop ik een beetje vast. Volgens Danny, gaan we hier volgende week mee aan de slag. Ook de onderdelen van de footer ben ik gaan flexboxen en ik begin nu ook met de vormgeving van mijn website zelf.
 
 ## Intake (week 1)
 
