@@ -37,7 +37,7 @@ header {
 }
 header>img {
   height: 12vh;
-  width: 100%;
+  width: 100vw;
   margin-top: 7vh;
 }
 nav {
@@ -79,6 +79,12 @@ nav div>ul {
 nav div>ul:first-of-type {
   margin-top: 0.45em;
 }
+nav ul:first-of-type li {
+  margin-right: 1.5vw;
+}
+nav ul:first-of-type li:last-of-type {
+  margin-right: 10vw;
+}
 nav div>ul:first-of-type img{
   height: 3.5vh;
   max-height: 1.8em;
@@ -87,7 +93,7 @@ nav div>ul:last-of-type {
   display: none;
 }
 nav div>img {
-  height: 3.7vh;
+  height: 2.9vh;
 }
 nav div div {
   margin-right: 1vw;
@@ -106,12 +112,6 @@ ul>li {
 }
 ul a {
   display: block;
-}
-nav ul:first-of-type li {
-  margin-right: 1.5vw;
-}
-nav ul:first-of-type li:last-of-type {
-  margin-right: 10vw;
 }
 
 main {
@@ -257,12 +257,38 @@ footer a {
   line-height: 3.5em;
   color: #666666;
   font-weight: bold;
-  border-top: 0.01vw solid lightgrey;
   text-decoration: none;
 }
 
 
-
+nav div>ul:last-of-type.uitklapmenu {
+  display: block;
+  position: fixed;
+}
+nav div>ul:last-of-type.uitklapmenu li {
+  background-color: white;
+  text-align: left;
+  width: 90vw;
+}
+nav div>ul:last-of-type.uitklapmenu li:first-of-type {
+  background-color: white;
+  text-align: left;
+  width: 90vw;
+  padding-top: 16.3vh;
+}
+nav div>ul:last-of-type.uitklapmenu li:last-of-type {
+  padding-bottom: 2vh;
+}
+nav div>ul:last-of-type.uitklapmenu li a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  height: 3.1em;
+  line-height: 3.1em;
+  padding-left: 13vw;
+  border-top: 0.01vw solid lightgrey;
+}
 
 .overlay {
   position: fixed;

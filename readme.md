@@ -42,6 +42,8 @@ Ik ben deze week bezig geweest met het compleet afmaken van mijn mobiele versie 
 
 Ik heb nog steeds moeite met het hamburgermenu en besloot daarom om hulp te vragen aan de docenten en studentassistenten. Hierdoor is het ook lastig om de navigatie van mijn namaak website gelijk te krijgen aan die van het origineel.
 
+Nadat ik een tip had gekregen, heb ik mijn hamburger menu gemaakt met behulp van Javascript. Hiervoor heb ik eerst de styling gegeven aan mijn uitgeklapte menu a.d.h.v. een classlist en vervolgens met JS ervoor gezorgd dat deze toe wordt gevoegd als er op het hamburgermenu wordt geklikt.
+
 -dit ging goed & dit was lastig-
 
 **Screenshot(s):**
