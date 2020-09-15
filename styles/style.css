@@ -33,6 +33,7 @@ body>img:nth-of-type(2) {
 
 header {
   height: 19vh;
+  z-index: 100;
 }
 header>img {
   height: 12vh;
@@ -49,6 +50,7 @@ nav {
   display: flex;
   z-index: 2;
   max-width: 100vw;
+  flex-grow: 1;
 }
 nav>a{
   position: relative;
@@ -58,14 +60,16 @@ nav>a img {
   top: 0;
   height: 29.3vw;
   max-height: 6em;
+  z-index: 5;
 }
 nav div{
   display: flex;
+  justify-content: flex-end;
 }
 nav>div {
   display: block;
   background-color: white;
-  min-width: 100vw;
+  min-width: 50vw;
 }
 nav div>ul {
   display: flex;
@@ -76,14 +80,38 @@ nav div>ul:first-of-type {
   margin-top: 0.45em;
 }
 nav div>ul:first-of-type img{
-  height: 3.8vh;
+  height: 3.5vh;
   max-height: 1.8em;
 }
+nav div>ul:last-of-type {
+  display: none;
+}
 nav div>img {
-  height: 2vh;
+  height: 3.7vh;
+}
+nav div div {
+  margin-right: 1vw;
+}
+nav div div>img {
+  height: 5vh;
+  opacity: 50%;
+  margin-top: 0.45em;
 }
 ul>li {
   list-style: none;
+  flex-grow: 1;
+  text-align: center;
+  min-width: 1em;
+  z-index: 1;
+}
+ul a {
+  display: block;
+}
+nav ul:first-of-type li {
+  margin-right: 1.5vw;
+}
+nav ul:first-of-type li:last-of-type {
+  margin-right: 10vw;
 }
 
 main {
