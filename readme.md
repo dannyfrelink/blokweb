@@ -48,6 +48,11 @@ Nadat ik een tip had gekregen, heb ik mijn hamburger menu gemaakt met behulp van
 
 **Screenshot(s):**
 
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/product-pagina.png) 
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/uitgeklapt-menu.png)
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/gele-section.png)
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/footer.png)   
+
 -screenshot(s) van hoe ver je bent-
 
 ### Agenda voor meeting
