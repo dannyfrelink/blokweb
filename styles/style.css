@@ -258,6 +258,7 @@ footer a {
   color: #666666;
   font-weight: bold;
   text-decoration: none;
+  border-top: 0.01vw solid lightgrey;
 }
 
 
