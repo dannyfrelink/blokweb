@@ -31,6 +31,10 @@ body>img:nth-of-type(2) {
   right: 0;
 }
 
+h1 {
+  display: none;
+}
+
 header {
   height: 19vh;
   z-index: 100;
@@ -53,7 +57,7 @@ nav {
   flex-grow: 1;
     background-color: white;
 }
-nav>a{
+nav>a {
   position: relative;
 }
 nav>a img {
@@ -63,7 +67,7 @@ nav>a img {
   max-height: 6em;
   z-index: 5;
 }
-nav div{
+nav div {
   display: flex;
   justify-content: flex-end;
 }
@@ -115,6 +119,29 @@ ul a {
 }
 
 main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18em, 48vw));
+  grid-template-rows: repeat(auto-fill, minmax(40vh, 1fr));
+  justify-content: center;
+  z-index: -1;
+}
+main>div {
+  background-color: #FFDB00;
+  height: 0.5vh;
+  width: 100vw;
+}
+main article {
+  position: relative;
+  /* min-height: 40vh; */
+  min-width: 18em;
+  /* max-width: 49em; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -125,28 +152,33 @@ main>div {
   height: 0.5vh;
   width: 100vw;
 }
-main section {
+main article {
   position: relative;
   width: 90vw;
   min-height: 40vh;
+  min-width: 18em;
   max-width: 49em;
   text-align: center;
-}
-section:nth-of-type(2),
-section:nth-of-type(3),
-section:nth-of-type(6),
-section:nth-of-type(7),
-section:nth-of-type(10),
-section:nth-of-type(11),
-section:nth-of-type(14),
-section:nth-of-type(15),
-section:nth-of-type(18),
-section:nth-of-type(19),
-section:nth-of-type(22) {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+} */
+article:nth-of-type(2),
+article:nth-of-type(3),
+article:nth-of-type(6),
+article:nth-of-type(7),
+article:nth-of-type(10),
+article:nth-of-type(11),
+article:nth-of-type(14),
+article:nth-of-type(15),
+article:nth-of-type(18),
+article:nth-of-type(19),
+article:nth-of-type(22) {
   background-color: #FFDB00;
+  color: white;
 }
-section:nth-of-type(2),
-section:nth-of-type(3),
+/* article:nth-of-type(2),
+article:nth-of-type(3),
 section:nth-of-type(6),
 section:nth-of-type(7),
 section:nth-of-type(10),
@@ -157,37 +189,35 @@ section:nth-of-type(18),
 section:nth-of-type(19),
 section:nth-of-type(22){
   color: white;
-}
-section:nth-of-type(1) h1,
-section:nth-of-type(4) h1,
-section:nth-of-type(5) h1,
-section:nth-of-type(8) h1,
-section:nth-of-type(9) h1,
-section:nth-of-type(12) h1,
-section:nth-of-type(13) h1,
-section:nth-of-type(16) h1,
-section:nth-of-type(17) h1,
-section:nth-of-type(20) h1,
-section:nth-of-type(21) h1{
+} */
+article:nth-of-type(1) h2,
+article:nth-of-type(4) h2,
+article:nth-of-type(5) h2,
+article:nth-of-type(8) h2,
+article:nth-of-type(9) h2,
+article:nth-of-type(12) h2,
+article:nth-of-type(13) h2,
+article:nth-of-type(16) h2,
+article:nth-of-type(17) h2,
+article:nth-of-type(20) h2,
+article:nth-of-type(21) h2{
   color: #FFDB00;
 }
-main section img {
+main article img {
   width: 90vw;
   max-width: 18em;
 }
-main section p {
+main article p {
   position: relative;
-  left: 1em;
   width: 80vw;
 }
-main section:first-of-type h1 {
+main article:first-of-type h2 {
   margin-top: 10vh;
 }
-/* main section div {
-  position: relative;
-  left: 2vw;
-} */
-main section button {
+main article div {
+  width: 16em;
+}
+main article button {
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
@@ -201,22 +231,22 @@ main section button {
   /* position: relative;
   left: 2vw; */
 }
-section:nth-of-type(1) button,
-section:nth-of-type(4) button,
-section:nth-of-type(5) button,
-section:nth-of-type(8) button,
-section:nth-of-type(9) button,
-section:nth-of-type(12) button,
-section:nth-of-type(13) button,
-section:nth-of-type(16) button,
-section:nth-of-type(17) button,
-section:nth-of-type(20) button,
-section:nth-of-type(21) button{
+article:nth-of-type(1) button,
+article:nth-of-type(4) button,
+article:nth-of-type(5) button,
+article:nth-of-type(8) button,
+article:nth-of-type(9) button,
+article:nth-of-type(12) button,
+article:nth-of-type(13) button,
+article:nth-of-type(16) button,
+article:nth-of-type(17) button,
+article:nth-of-type(20) button,
+article:nth-of-type(21) button{
   border: none;
   box-shadow: 0 5px 0 0 #ccaf00;
 }
 
-h1 {
+h2 {
   font-size: 110%;
   text-transform: uppercase;
 }
@@ -228,6 +258,7 @@ a {
 p {
   font-size: 110%;
   opacity: 90%;
+  max-width: 26ch;
 }
 
 footer {
@@ -311,7 +342,7 @@ nav div>ul:last-of-type.uitklapmenu li a {
 .overlay p {
   text-align: center;
 }
-.overlay h1 {
+.overlay h2 {
   text-align: center;
 }
 
