@@ -32,6 +32,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -same as voortgang 1-
 
+## Voortgang 1 (week 4)
+
+Doordat we veel deadlines hadden van andere vakken, heb ik na het voortgangsgesprek een lange tijd niks gedaan/kunnen doen. Ik liep ook flink vast met hoe ik mijn website nou echt goed responsive ging krijgen. Hiervoor werd het bij de les over Grids al iets duidelijker.
+
+Ik ben aan de gang gegaan met Grid en liep al snel opnieuw vast en moest om hulp gaan vragen. Uiteindelijk heb ik met Nathan een half uur gezeten en kwamen we erachter dat bijna al mijn problemen opgelost zouden worden met Mediaqueries, wat de volgende les zou zijn. Hiervoor had ik dus nog even geduld nodig.
+
+Uiteindelijk ben ik zelf aan de gang gegaan met Mediaqueries en was het minder lastig dan verwacht. De site begint nu al een stuk meer responsive te worden dan het vorige week was.
 
 
 ## Voortgang 1 (week 3)
@@ -44,8 +51,6 @@ Ik heb nog steeds moeite met het hamburgermenu en besloot daarom om hulp te vrag
 
 Nadat ik een tip had gekregen, heb ik mijn hamburger menu gemaakt met behulp van Javascript. Hiervoor heb ik eerst de styling gegeven aan mijn uitgeklapte menu a.d.h.v. een classlist en vervolgens met JS ervoor gezorgd dat deze toe wordt gevoegd als er op het hamburgermenu wordt geklikt.
 
--dit ging goed & dit was lastig-
-
 **Screenshot(s):**
 
 ![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/product-pagina.png) 
@@ -53,15 +58,13 @@ Nadat ik een tip had gekregen, heb ik mijn hamburger menu gemaakt met behulp van
 ![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/gele-section.png)
 ![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/footer.png)   
 
--screenshot(s) van hoe ver je bent-
-
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+We besloten om ons te focussen op het hamburgermenu, de styling hiervan en zelf wilde ik nog wat dingen vragen over de transitie hiervan.
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Duidelijk geworden hoe we verder kunnen en genoeg vragen kunnen stellen en uitleg kunnen krijgen.
 
 ## Intake (week 2)
 
