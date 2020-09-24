@@ -35,6 +35,7 @@ h1 {
   display: none;
 }
 
+/* Navigatiebalk */
 header {
   height: 19vh;
   z-index: 100;
@@ -65,7 +66,7 @@ nav>a img {
   top: 0;
   height: 29.3vw;
   max-height: 6em;
-  z-index: 5;
+  z-index: 200;
 }
 nav div {
   display: flex;
@@ -85,21 +86,17 @@ nav div>ul:first-of-type {
   margin-top: 0.45em;
 }
 nav ul:first-of-type li {
-  margin-right: 1.5vw;
+  margin-right: 0.3em;
 }
 nav ul:first-of-type li:last-of-type {
-  margin-right: 10vw;
+  margin-right: 2em;
 }
 nav div>ul:first-of-type img{
   height: 3.5vh;
   max-height: 1.8em;
 }
-nav div>ul:last-of-type {
+/* nav div>ul:last-of-type {
   display: none;
-}
-/* nav>div>img {
-  height: 3.5vh;
-  width: 100vw;
 } */
 nav>div>img {
   height: 2.9vh;
@@ -112,16 +109,51 @@ nav div div>img {
   height: 1.7em;
   opacity: 50%;
   margin-top: 0.45em;
+  z-index: 200;
 }
 ul>li {
   list-style: none;
-  flex-grow: 1;
   text-align: center;
   min-width: 1em;
   z-index: 1;
 }
 ul a {
   display: block;
+}
+
+/* Hamburger menu */
+nav div>ul:last-of-type {
+  display: block;
+  position: fixed;
+  transform: translateX(-1em);
+  transform: translateY(-40em);
+  width: 100vw;
+}
+nav div>ul:last-of-type li {
+  background-color: white;
+  text-align: left;
+  width: 100vw;
+}
+nav div>ul:last-of-type li:first-of-type {
+  padding-top: 5.8em;
+}
+nav div>ul:last-of-type li:last-of-type {
+  padding-bottom: 2vh;
+}
+nav div>ul:last-of-type li a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  height: 3.1em;
+  line-height: 3.1em;
+  padding-left: 2.6em;
+  border-top: 0.01vw solid lightgrey;
+}
+nav div>ul:last-of-type.uitklapmenu {
+  transform: translateY(0);
+  transform: translateX(-1em);
+  transition: ease-in 300ms;
 }
 
 /* main {
@@ -147,6 +179,7 @@ main article {
   flex-wrap: wrap;
 } */
 
+/* Articles */
 main {
   display: flex;
   flex-wrap: wrap;
@@ -265,29 +298,31 @@ article:nth-of-type(21) a{
   line-height: 4.1em;
 }
 
+/* Algemene dingen */
 h2 {
   font-size: 18px;
   text-transform: uppercase;
 }
-
 a {
   display: block;
 }
-
 p {
   font-size: 16px;
   opacity: 90%;
   max-width: 65ch;
 }
 
+/* Footer */
 footer {
   font-size: 13px;
   width: 90vw;
-  position: relative;
-  left: 0.5em;
+  /* margin-left: 2vw; */
+  /* position: relative;
+  left: 0.5em; */
 }
 footer div {
   display: flex;
+  align-items: center;
 }
 footer div p {
   font-size: 13px;
@@ -311,36 +346,7 @@ footer a {
   border-top: 0.01vw solid lightgrey;
 }
 
-
-nav div>ul:last-of-type.uitklapmenu {
-  display: block;
-  position: fixed;
-}
-nav div>ul:last-of-type.uitklapmenu li {
-  background-color: white;
-  text-align: left;
-  width: 90vw;
-}
-nav div>ul:last-of-type.uitklapmenu li:first-of-type {
-  background-color: white;
-  text-align: left;
-  width: 90vw;
-  padding-top: 16.3vh;
-}
-nav div>ul:last-of-type.uitklapmenu li:last-of-type {
-  padding-bottom: 2vh;
-}
-nav div>ul:last-of-type.uitklapmenu li a {
-  text-decoration: none;
-  color: #666666;
-  font-size: 15px;
-  font-weight: bold;
-  height: 3.1em;
-  line-height: 3.1em;
-  padding-left: 13vw;
-  border-top: 0.01vw solid lightgrey;
-}
-
+/* Overlay Detailpagina */
 .overlay {
   position: fixed;
   height: 100%;
@@ -365,6 +371,7 @@ nav div>ul:last-of-type.uitklapmenu li a {
   text-align: center;
 }
 
+/* Mediaqueries */
 @media (min-width: 480px) {
   main article:first-of-type h2 {
     margin-top: 0vh;
@@ -380,9 +387,11 @@ nav div>ul:last-of-type.uitklapmenu li a {
   main {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    /* grid-template-rows: repeat(auto-fill, minmax(25vw, 26vw)); */
-    /* grid-template-columns: repeat(auto-fill, minmax(18em, 48vw)); */
-    /* grid-template-rows: repeat(auto-fill, minmax(11.6em, 15em)); */
+  }
+  main>div {
+    height: 25vw;
+    width: 50vw;
+    z-index: 1;
   }
 
   main article {
@@ -470,17 +479,39 @@ nav div>ul:last-of-type.uitklapmenu li a {
 
 
   h2 {
-    font-size: 15px;
+    font-size: 1.7vw;
     margin-top: 0;
   }
 
   p {
     margin: 0 0 0.8em 0;
-    font-size: 11px;
+    font-size: 1.32vw;
+    max-width: 25ch;
   }
 
 
-
+  footer {
+    display: flex;
+    width: 95vw;
+    justify-content: flex-end;
+  }
+  footer div {
+    height: 3em;
+    min-width: 20vw;
+  }
+  footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 70vw;
+  }
+  footer ul li {
+    padding: 0 20px;
+  }
+  footer a {
+    border: none;
+    width: inherit;
+  }
 
 }
 
@@ -491,6 +522,90 @@ nav div>ul:last-of-type.uitklapmenu li a {
   }
   nav>div>img {
     height: 6vh;
+  }
+  nav div div>img {
+    display: none
+  }
+
+  /* Navigatiebalk zonder Hamburger menu*/
+  nav div>ul:first-of-type {
+    margin-top: 1em;
+  }
+  nav ul:first-of-type li:last-of-type {
+    margin-right: 0;
+  }
+
+
+  nav div>ul:last-of-type {
+    display: flex;
+    transform: translateY(0);
+    width: auto;
+    margin-top: 1.25em;
+    /* display: block;
+    position: fixed;
+    transform: translateX(-1em);
+    transform: translateY(-40em);
+    width: 100vw; */
+  }
+  nav div>ul:last-of-type li + li {
+    padding-left: 1.75em;
+  }
+  nav div>ul:last-of-type li {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    background-color: transparent;
+    /* background-color: white;
+    text-align: left;
+    width: 100vw; */
+  }
+  nav div>ul:last-of-type li:first-of-type {
+    padding-top: 0;
+  }
+  nav div>ul:last-of-type li:last-of-type {
+    padding-bottom: 0;
+    margin-right: 8.3em;
+  }
+  nav div>ul:last-of-type li:nth-of-type(1) {
+    order: 1;
+  }
+  nav div>ul:last-of-type li:nth-of-type(2) {
+    order: 5;
+  }
+  nav div>ul:last-of-type li:nth-of-type(3) {
+    order: 2;
+  }
+  nav div>ul:last-of-type li:nth-of-type(4) {
+    order: 3;
+  }
+  nav div>ul:last-of-type li:nth-of-type(5) {
+    order: 4;
+  }
+  nav div>ul:last-of-type li:nth-of-type(6) {
+    order: 6;
+  }
+
+  nav div>ul:last-of-type li a {
+    font-size: 15.5px;
+    font-weight: bold;
+    border: none;
+    height: 2em;
+    padding: 0;
+    line-height: 2em;
+    /* text-decoration: none;
+    color: #666666;
+    font-size: 15px;
+    font-weight: bold;
+    height: 3.1em;
+    line-height: 3.1em;
+    padding-left: 2.6em;
+    border-top: 0.01vw solid lightgrey; */
+  }
+  nav div>ul:last-of-type.uitklapmenu {
+    transform: translateY(0);
+    transform: translateX(-1em);
+    transition: ease-in 300ms;
   }
 
   h2 {
@@ -522,4 +637,8 @@ nav div>ul:last-of-type.uitklapmenu li a {
     line-height: 4.1em;
   }
 
+}
+
+.grootlogo {
+  width: 10em;
 }
