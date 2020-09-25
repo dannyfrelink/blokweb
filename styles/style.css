@@ -13,8 +13,8 @@ body {
   overflow-x: hidden;
   margin-bottom: 0;
 }
-.bodydetail {
-  background-color: orange;
+body.detailpagina  {
+  overflow: hidden;
 }
 
 body>img {
@@ -67,6 +67,12 @@ nav>a img {
   height: 29.3vw;
   max-height: 6em;
   z-index: 200;
+  transition: ease-out 200ms;
+}
+nav>a img.grootlogo {
+  position: absolute;
+  max-height: 6em;
+  transition: ease-in 200ms;
 }
 nav div {
   display: flex;
@@ -127,6 +133,7 @@ nav div>ul:last-of-type {
   position: fixed;
   transform: translateX(-1em);
   transform: translateY(-40em);
+  transition: ease-out 300ms;
   width: 100vw;
 }
 nav div>ul:last-of-type li {
@@ -346,31 +353,6 @@ footer a {
   border-top: 0.01vw solid lightgrey;
 }
 
-/* Overlay Detailpagina */
-.overlay {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  overflow-y: scroll;
-  top: 2.8vh;
-  left: 5vw;
-  right: 5vw;
-  background-color: white;
-  width: 90vw;
-  max-width: 36em;
-  z-index: 100;
-}
-.overlay img {
-  width: 90vw;
-  max-width: 36em;
-}
-.overlay p {
-  text-align: center;
-}
-.overlay h2 {
-  text-align: center;
-}
-
 /* Mediaqueries */
 @media (min-width: 480px) {
   main article:first-of-type h2 {
@@ -520,8 +502,12 @@ footer a {
   nav {
     height: 4.5em;
   }
+  nav>a img {
+    max-height: 10em;
+  }
   nav>div>img {
     height: 6vh;
+
   }
   nav div div>img {
     display: none
@@ -639,6 +625,63 @@ footer a {
 
 }
 
-.grootlogo {
-  width: 10em;
+
+/* Overlay Detailpagina */
+body>section:nth-of-type(1) {
+  overflow-y: hidden;
+}
+body>section:nth-of-type(2) {
+  position: fixed;
+  top: 3vh;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 100%;
+  width: 60vw;
+  min-width: 17em;
+  max-width: 37em;
+  text-align: left;
+  z-index: 100;
+  background-color: white;
+  overflow-y: scroll;
+  /* position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  top: 2.8vh;
+  left: 5vw;
+  right: 5vw;
+  background-color: white;
+  width: 90vw;
+  max-width: 36em;
+  z-index: 100; */
+}
+body>section:nth-of-type(2) img {
+  width: 60vw;
+  min-width: 17em;
+  max-width: 37em;
+}
+body>section:nth-of-type(2) div {
+  padding: 5% 5% 10% 5%;
+}
+body>section:nth-of-type(2) p {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  max-width: 90vw;
+  opacity: 60%;
+  padding-bottom: 1em;
+}
+body>section:nth-of-type(2) h2 {
+  font-weight: normal;
+  font-size: 24px;
+}
+body.detailpagina>div {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #FCDB51;
+  z-index: 50;
+  opacity: 60%;
 }

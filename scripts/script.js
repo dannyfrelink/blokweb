@@ -9,5 +9,16 @@ function menuUitklappen () {
     uitgeklaptMenu.classList.toggle('uitklapmenu');
 }
 
+function logoVerkleinen () {
+    var scroll = window.scrollY;
+
+    if (scroll >=50) {
+        laysLogo.classList.add('grootlogo');
+    }
+    else {
+        laysLogo.classList.remove('grootlogo');
+    }
+}
 
 hamburgerMenu.addEventListener('click', menuUitklappen);
+window.addEventListener('scroll', logoVerkleinen);
