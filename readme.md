@@ -30,9 +30,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
-## Voortgang 1 (week 4)
+Deze week ben ik bezig geweest met het helemaal afronden van mijn website en dat is gelukt. Ik heb geprobeerd om echt elk detail van de Lay's website na te maken en dat is (vind ik zelf) zeer goed gelukt.
+
+Mocht ik later nog tijd over hebben, ga ik nog kijken of ik extra dingen zoals animaties e.d. kan toevoegen. 
+
+**Screenshot(s):**
+
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/groot-scherm.png) 
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/middel-scherm.png)
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/klein-scherm.png)
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/detailpagina.png)  
+
+## Tussenfase (week 4)
 
 Doordat we veel deadlines hadden van andere vakken, heb ik na het voortgangsgesprek een lange tijd niks gedaan/kunnen doen. Ik liep ook flink vast met hoe ik mijn website nou echt goed responsive ging krijgen. Hiervoor werd het bij de les over Grids al iets duidelijker.
 
@@ -66,7 +77,7 @@ We besloten om ons te focussen op het hamburgermenu, de styling hiervan en zelf 
 
 Duidelijk geworden hoe we verder kunnen en genoeg vragen kunnen stellen en uitleg kunnen krijgen.
 
-## Intake (week 2)
+## Tussenfase (week 2)
 
 Ik ben in deze week begonnen met het maken van het skelet van mijn website. Hiervoor heb ik eerst de hele assortiment pagina nagemaakt, door alle codes in de juiste volgorde onder elkaar te zetten. Vervolgens heb ik de CSS voor de typografie toegevoegd aan mijn website.
 

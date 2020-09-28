@@ -13,9 +13,9 @@ body {
   overflow-x: hidden;
   margin-bottom: 0;
 }
-body.detailpagina  {
-  overflow: hidden;
-}
+/* body.detailpagina  {
+  overflow-x: hidden;
+} */
 
 body>img {
   position: fixed;
@@ -329,6 +329,7 @@ footer {
 }
 footer div {
   display: flex;
+  margin-left: 4vw;
   align-items: center;
 }
 footer div p {
@@ -627,9 +628,9 @@ footer a {
 
 
 /* Overlay Detailpagina */
-body>section:nth-of-type(1) {
-  overflow-y: hidden;
-}
+/* body>section:nth-of-type(1) {
+  z-index: -1;
+} */
 body>section:nth-of-type(2) {
   position: fixed;
   top: 3vh;
@@ -661,7 +662,7 @@ body>section:nth-of-type(2) img {
   min-width: 17em;
   max-width: 37em;
 }
-body>section:nth-of-type(2) div {
+body>section:nth-of-type(2) div div{
   padding: 5% 5% 10% 5%;
 }
 body>section:nth-of-type(2) p {
@@ -676,8 +677,23 @@ body>section:nth-of-type(2) h2 {
   font-weight: normal;
   font-size: 24px;
 }
+body>section:nth-of-type(2) a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 200;
+}
+body>section:nth-of-type(2) a img {
+  width: 5vw;
+  max-width: 2em;
+  height: auto;
+  min-width: 0;
+}
+
+
 body.detailpagina>div {
   position: fixed;
+  left: 0;
   top: 0;
   width: 100%;
   height: 100%;
