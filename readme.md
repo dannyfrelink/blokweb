@@ -7,9 +7,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. -bron 1 Lay's website: https://lays.nl/assortiment -
-2. -bron 2 Logo verkleinen na scroll: https://stackoverflow.com/questions/15798360/show-div-on-scrolldown-after-800px -
-3. -bron 3 img in readme scalen: https://gist.github.com/uupaa/f77d2bcf4dc7a294d109 -
-4. -bron4 img in readme naast elkaar: https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md/31571776 -
+2. -bron 2 Meerdere elementen in 1 css selecteren: https://stackoverflow.com/questions/6149658/how-to-select-multiple-elements-using-css -
+3. -bron 3 Logo verkleinen na scroll: https://stackoverflow.com/questions/15798360/show-div-on-scrolldown-after-800px -
+4. -bron 4 img in readme scalen: https://gist.github.com/uupaa/f77d2bcf4dc7a294d109 -
+5. -bron 5 img in readme naast elkaar: https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md/31571776 -
 
 
 
