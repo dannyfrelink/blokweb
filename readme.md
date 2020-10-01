@@ -101,4 +101,4 @@ Al voordat het tweede college van deze week kwam, ben ik aan de gang gegaan met 
 **Breakdown-schets(en):**
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/readme/breakdown-schets1.jpeg =100x20) 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/breakdown-schets2.jpeg =100x20)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/breakdown-schets2.jpeg | width=100)
