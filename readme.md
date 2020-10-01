@@ -8,7 +8,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. -bron 1 Lay's website: https://lays.nl/assortiment -
 2. -bron 2 Logo verkleinen na scroll: https://stackoverflow.com/questions/15798360/show-div-on-scrolldown-after-800px-
-3. -...-
+3. -bron 3 img in readme scalen: https://gist.github.com/uupaa/f77d2bcf4dc7a294d109-
 
 
 
@@ -38,10 +38,10 @@ Mocht ik later nog tijd over hebben, ga ik nog kijken of ik extra dingen zoals a
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/groot-scherm.png =100x20) 
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/middel-scherm.png =100x20)
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/klein-scherm.png =100x20)
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/detailpagina.png =100x20)  
+<img src="images/readme/groot-scherm.png"  width="250" />
+<img src="images/readme/middel-scherm.png"  width="250" />
+<img src="images/readme/klein-scherm.png"  width="250" />
+<img src="images/readme/detailpagina.png"  width="250" />
 
 ## Tussenfase (week 4)
 
@@ -64,10 +64,10 @@ Nadat ik een tip had gekregen, heb ik mijn hamburger menu gemaakt met behulp van
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/product-pagina.png =100x20) 
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/uitgeklapt-menu.png =100x20)
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/gele-section.png =100x20)
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/footer.png =100x20)   
+<img src="images/readme/product-pagina.png"  width="250" />
+<img src="images/readme/uitgeklapt-menu.png"  width="250" />
+<img src="images/readme/gele-section.png"  width="250" />
+<img src="images/readme/footer.png"  width="250" />
 
 ### Agenda voor meeting
 
@@ -95,11 +95,10 @@ Al voordat het tweede college van deze week kwam, ben ik aan de gang gegaan met 
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/lays-pagina1.png =100x20) 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/lays-pagina2.png =100x20)
+<img src="images/readme/lays-pagina1.png"  width="250" />
+<img src="images/readme/lays-pagina2.png"  width="250" />
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/readme/breakdown-schets1.jpeg =100x20) 
-<img src="images/readme/breakdown-schets2.jpeg"  width="100" />
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/breakdown-schets2.jpeg | width=100)
+<img src="images/readme/breakdown-schets1.jpeg"  width="250" />
+<img src="images/readme/breakdown-schets2.jpeg"  width="250" />
