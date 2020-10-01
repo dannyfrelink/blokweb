@@ -7,7 +7,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. -bron 1 Lay's website: https://lays.nl/assortiment -
-2. -bron 2-
+2. -bron 2 Logo verkleinen na scroll: https://stackoverflow.com/questions/15798360/show-div-on-scrolldown-after-800px-
 3. -...-
 
 
@@ -38,10 +38,10 @@ Mocht ik later nog tijd over hebben, ga ik nog kijken of ik extra dingen zoals a
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/groot-scherm.png) 
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/middel-scherm.png)
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/klein-scherm.png)
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/detailpagina.png)  
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/groot-scherm.png =100x20) 
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/middel-scherm.png =100x20)
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/klein-scherm.png =100x20)
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/detailpagina.png =100x20)  
 
 ## Tussenfase (week 4)
 
@@ -64,10 +64,10 @@ Nadat ik een tip had gekregen, heb ik mijn hamburger menu gemaakt met behulp van
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/product-pagina.png) 
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/uitgeklapt-menu.png)
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/gele-section.png)
-![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/footer.png)   
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/product-pagina.png =100x20) 
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/uitgeklapt-menu.png =100x20)
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/gele-section.png =100x20)
+![screenshot(s) die een goed beeld geven van de website in huidige staat](images/readme/footer.png =100x20)   
 
 ### Agenda voor meeting
 
@@ -95,10 +95,10 @@ Al voordat het tweede college van deze week kwam, ben ik aan de gang gegaan met 
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/lays-pagina1.png) 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/lays-pagina2.png)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/lays-pagina1.png =100x20) 
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/lays-pagina2.png =100x20)
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/readme/breakdown-schets1.jpeg) 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/breakdown-schets2.jpeg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/readme/breakdown-schets1.jpeg =100x20) 
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/readme/breakdown-schets2.jpeg =100x20)
