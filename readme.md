@@ -38,10 +38,18 @@ Mocht ik later nog tijd over hebben, ga ik nog kijken of ik extra dingen zoals a
 
 **Screenshot(s):**
 
-<img src="images/readme/groot-scherm.png"  width="250" />
-<img src="images/readme/middel-scherm.png"  width="250" />
-<img src="images/readme/klein-scherm.png"  width="250" />
-<img src="images/readme/detailpagina.png"  width="250" />
+<img src="images/readme/groot-scherm.png"  width="350" />
+<img src="images/readme/middel-scherm.png"  width="350" />
+<img src="images/readme/klein-scherm.png"  width="350" />
+<img src="images/readme/detailpagina.png"  width="350" />
+
+### Agenda voor meeting
+
+Ikzelf had geen punten om bij de meeting te bespreken, aangezien ik mijn hele website al af heb. Verder wilde mijn groepje meer te weten komen over de Readme en hoe deze weergegeven moest worden.
+
+### Verslag van meeting
+
+De meeting was kort en relaxt en de vragen werden allemaal duidelijk beantwoord. Ik ga na deze meeting nog even mijn readme beter stylen door de images minder groot weer te geven.
 
 ## Tussenfase (week 4)
 
@@ -64,10 +72,10 @@ Nadat ik een tip had gekregen, heb ik mijn hamburger menu gemaakt met behulp van
 
 **Screenshot(s):**
 
-<img src="images/readme/product-pagina.png"  width="250" />
-<img src="images/readme/uitgeklapt-menu.png"  width="250" />
-<img src="images/readme/gele-section.png"  width="250" />
-<img src="images/readme/footer.png"  width="250" />
+<img src="images/readme/product-pagina.png"  width="350" />
+<img src="images/readme/uitgeklapt-menu.png"  width="350" />
+<img src="images/readme/gele-section.png"  width="350" />
+<img src="images/readme/footer.png"  width="350" />
 
 ### Agenda voor meeting
 
@@ -95,10 +103,10 @@ Al voordat het tweede college van deze week kwam, ben ik aan de gang gegaan met 
 
 **Screenshot(s):**
 
-<img src="images/readme/lays-pagina1.png"  width="250" />
-<img src="images/readme/lays-pagina2.png"  width="250" />
+<img src="images/readme/lays-pagina1.png"  width="350" />
+<img src="images/readme/lays-pagina2.png"  width="350" />
 
 **Breakdown-schets(en):**
 
-<img src="images/readme/breakdown-schets1.jpeg"  width="250" />
-<img src="images/readme/breakdown-schets2.jpeg"  width="250" />
+<img src="images/readme/breakdown-schets1.jpeg"  width="350" />
+<img src="images/readme/breakdown-schets2.jpeg"  width="350" />
