@@ -13,10 +13,10 @@ function logoVerkleinen () {
     var scroll = window.scrollY;
 
     if (scroll >=50) {
-        laysLogo.classList.add('grootlogo');
+        laysLogo.classList.add('verkleinlogo');
     }
     else {
-        laysLogo.classList.remove('grootlogo');
+        laysLogo.classList.remove('verkleinlogo');
     }
 }
 

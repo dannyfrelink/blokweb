@@ -64,7 +64,7 @@ nav>a img {
   z-index: 200;
   transition: ease-out 200ms;
 }
-nav>a img.grootlogo {
+nav>a img.verkleinlogo {
   position: absolute;
   max-height: 6em;
   transition: ease-in 200ms;
@@ -275,6 +275,14 @@ h2 {
 }
 a {
   display: block;
+}
+a:focus, a:hover {
+  outline: 3px dotted hotpink;
+  transform: scale(1.15);
+  transition: 200ms ease-in;
+}
+a:hover {
+  outline: none;
 }
 p {
   font-size: 16px;
