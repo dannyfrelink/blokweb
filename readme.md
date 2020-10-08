@@ -12,6 +12,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 4. -bron 4 img in readme scalen: https://gist.github.com/uupaa/f77d2bcf4dc7a294d109 -
 5. -bron 5 img in readme naast elkaar: https://stackoverflow.com/questions/24319505/how-can-one-display-images-side-by-side-in-a-github-readme-md/31571776 -
 6. -bron 6 outline focus state aanpassen: https://stackoverflow.com/questions/3397113/how-to-remove-focus-border-outline-around-text-input-boxes-chrome -
+7. -bron 7 backface visibility tutorial: https://www.youtube.com/watch?v=4wdNiHrI1DM -
+8. -bron 8 '-webkit-' bij backface visibility gebruiken: https://css-tricks.com/almanac/properties/b/backface-visibility/#problematic-in-webkit-because-backface-visibility-not-hidden -
 
 
 

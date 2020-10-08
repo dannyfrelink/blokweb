@@ -584,9 +584,22 @@ footer a {
 
 }
 
-
 /* Overlay Detailpagina */
+@keyframes overlayInfaden {
+  0%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 body>section:nth-of-type(2) {
+  animation-name: overlayInfaden;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
   position: fixed;
   top: 3vh;
   left: 0;
@@ -598,7 +611,6 @@ body>section:nth-of-type(2) {
   max-width: 37em;
   text-align: left;
   z-index: 100;
-  /* background-color: white; */
   overflow-y: scroll;
 }
 body>section:nth-of-type(2) img {
@@ -609,10 +621,13 @@ body>section:nth-of-type(2) img {
 body>section:nth-of-type(2)>div {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
 }
 body>section:nth-of-type(2)>div>div {
   background-color: transparent;
   width: 100%;
+  height: 100%;
 }
 body>section:nth-of-type(2)>div>div>div:hover {
   transform: rotateY(180deg);
@@ -620,23 +635,22 @@ body>section:nth-of-type(2)>div>div>div:hover {
 body>section:nth-of-type(2)>div>div>div {
   position: relative;
   width: 100%;
+  height: 100%;
   transition: 800ms;
   transform-style: preserve-3d;
 }
-body>section:nth-of-type(2) div div div div:first-of-type {
+body>section:nth-of-type(2) div div div div:first-of-type,
+body>section:nth-of-type(2) div div div div:nth-of-type(2) {
   position: absolute;
   width: 100%;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
+}
+body>section:nth-of-type(2) div div div div:first-of-type {
+  height: 100%;
 }
 body>section:nth-of-type(2) div div div div:nth-of-type(2) {
-  padding: 5% 5% 10% 5%;
-  position: absolute;
-  width: 100%;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
+  padding: 5%;
   transform: rotateY(-180deg);
   background-color: white;
 }
@@ -678,8 +692,7 @@ body.detailpagina>div {
 
 
 
-
-
+/* Oude code voor Detailpagina (voor 'backface-visibility) */
 
 /* body>section:nth-of-type(2) {
   position: fixed;
