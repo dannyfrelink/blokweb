@@ -221,12 +221,6 @@ main article img {
   max-width: 25em;
   margin: 0 6%;
 }
-main article img:hover {
-  transform: rotateY(180deg);
-  transition: 500ms;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
 main article p {
   position: relative;
   width: 90vw;
@@ -596,7 +590,7 @@ footer a {
 
 body>section:nth-of-type(2) {
   animation-name: overlayInfaden;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
   opacity: 0;
