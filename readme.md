@@ -19,11 +19,11 @@ Ik heb direct na het voortgangsgesprek de besproken toevoegingen aan mijn werk t
 
 <p>
     <img src="images/readme/klein-scherm.png"  width="350" />
-    <img src="images/readme/middel-scherm.png"  width="350" />
+    <img src="images/readme/middel-scherm.png"  width="450" />
 </p>
     <img src="images/readme/groot-scherm.png"  width="600" />
 <p>
-    <img src="images/readme/detailpagina-img.png"  width="600" />
+    <img src="images/readme/detailpagina-img.png"  width="350" />
     <img src="images/readme/detailpagina-tekst.png"  width="350" />
 </p>
 
