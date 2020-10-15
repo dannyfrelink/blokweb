@@ -1,10 +1,6 @@
 # Procesverslag
 **Auteur:** -Danny Frelink-
 
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
-
 ## Bronnenlijst
 1. -bron 1 Lay's website: https://lays.nl/assortiment -
 2. -bron 2 Meerdere elementen in 1 css selecteren: https://stackoverflow.com/questions/6149658/how-to-select-multiple-elements-using-css -
@@ -15,23 +11,35 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 7. -bron 7 backface visibility tutorial: https://www.youtube.com/watch?v=4wdNiHrI1DM -
 8. -bron 8 '-webkit-' bij backface visibility gebruiken: https://css-tricks.com/almanac/properties/b/backface-visibility/#problematic-in-webkit-because-backface-visibility-not-hidden -
 
-
-
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik heb direct na het voortgangsgesprek de besproken toevoegingen aan mijn werk toegevoegd en had ik mijn werk dus al direct afgemaakt. Dit had ik ook gedaan, zodat ik eventueel nog vragen kon stellen voor de herfstvakantie. Dit was uiteindelijk dus niet nodig.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
-
-
+<p>
+    <img src="images/readme/klein-scherm.png"  width="350" />
+    <img src="images/readme/middel-scherm.png"  width="350" />
+</p>
+    <img src="images/readme/groot-scherm.png"  width="600" />
+<p>
+    <img src="images/readme/detailpagina-img.png"  width="600" />
+    <img src="images/readme/detailpagina-tekst.png"  width="350" />
+</p>
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
 
+Deze week heb ik eigenlijk niks meer gedaan aan mijn website, aangezien ik deze de week ervoor had afgerond. Ik heb dus gewacht tot het voortangsgesprek om te kijken of Danny nog iets toe te voegen had.
 
+### Agenda voor meeting
+
+Ikzelf had geen inbreng voor de meeting, dus heb ik mijn medestudenten alle inbreng laten leveren.
+
+### Verslag van meeting
+
+Tijdens de meeting heb ik weinig gehad aan de vragen die gesteld werden, omdat ik hier geen problemen mee had. Wel heeft Danny mij nog een paar uitdagingen gegeven. Zo heb ik afgesproken om nog een animatie toe te voegen en zou ik nog iets randoms proberen, namelijk backface visibility.
 
 ## Voortgang 2 (week 5)
 
@@ -39,7 +47,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 Deze week ben ik bezig geweest met het helemaal afronden van mijn website en dat is gelukt. Ik heb geprobeerd om echt elk detail van de Lay's website na te maken en dat is (vind ik zelf) zeer goed gelukt.
 
-Mocht ik later nog tijd over hebben, ga ik nog kijken of ik extra dingen zoals animaties e.d. kan toevoegen. 
+Mocht ik later nog tijd over hebben, ga ik nog kijken of ik extra dingen zoals animaties e.d. kan toevoegen.
 
 **Screenshot(s):**
 
@@ -67,7 +75,6 @@ Doordat we veel deadlines hadden van andere vakken, heb ik na het voortgangsgesp
 Ik ben aan de gang gegaan met Grid en liep al snel opnieuw vast en moest om hulp gaan vragen. Uiteindelijk heb ik met Nathan een half uur gezeten en kwamen we erachter dat bijna al mijn problemen opgelost zouden worden met Mediaqueries, wat de volgende les zou zijn. Hiervoor had ik dus nog even geduld nodig.
 
 Uiteindelijk ben ik zelf aan de gang gegaan met Mediaqueries en was het minder lastig dan verwacht. De site begint nu al een stuk meer responsive te worden dan het vorige week was.
-
 
 ## Voortgang 1 (week 3)
 
