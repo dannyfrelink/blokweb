@@ -336,6 +336,9 @@ main>img.pijlUitfaden {
     max-width: 54em;
     background-color: rgb(243, 243, 243)
 }
+.portfolio main>section article div a {
+    display: none;
+}
 .portfolio main>section article div:first-of-type {
     position: relative;
 }
@@ -457,6 +460,9 @@ html .openProject {
     max-width: 42.03em;
     margin: 1em auto;
     transition: 2s;
+}
+.portfolio main>section article.openProject div a {
+    display: block;
 }
 .portfolio main>section article.openProject div h2 {
     font-style: normal;
