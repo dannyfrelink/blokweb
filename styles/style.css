@@ -356,7 +356,7 @@ main>img.pijlUitfaden {
 .portfolio main>section article div:first-of-type a::after {
     position: absolute;
     top: -1px;
-    left: 0.6em;
+    left: 0.61em;
     content: ' ';
     height: 1.6em;
     width: 0.2em;
@@ -506,6 +506,9 @@ html .openProject {
     border: none;
     margin-right: 3.5vw;
     transform: none;
+}
+.portfolio main>section article:nth-of-type(5).openProject {
+    overflow-x: hidden;
 }
 .portfolio main>section article:nth-of-type(5).openProject div div img {
     width: 87vw;
@@ -778,7 +781,6 @@ html .openProject {
     .portfolio main>section article.openProject div div img {
         width: 61.84vw;
         max-width: 46.38em;
-        height: auto;
     }
 
     .portfolio main>section article div:first-of-type a {
